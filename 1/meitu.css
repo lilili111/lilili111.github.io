@@ -1,0 +1,6 @@
+body{background-color: #ccc;}
+h1{width: 500px;text-align: center;}
+div{width: 500px;margin: 0 auto;}
+li{list-style: none;float:left;	padding: 1em;}
+img{display: block;clear:both;}
+a{text-decoration: none;}

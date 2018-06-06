@@ -1,0 +1,24 @@
+<html>
+	<had>
+		<title>美图切换<</title>
+	</had>
+	<body>
+		<div>
+		<h1>美图切换</h1>
+		<ul>
+			<li><a href="meitu1.jpg" onclick="showPic(this);return false;" title="Beautiful picture one">美图1</a></li>
+			<li><a href="meitu2.jpg" onclick="showPic(this);return false;" title="Beautiful picture two">美图2</a></li>
+			<li><a href="meitu3.jpg" onclick="showPic(this);return false;" title="Beautiful picture three">美图3</a></li>
+			<li><a href="meitu4.jpg" onclick="showPic(this);return false;" title="Beautiful picture four">美图4</a></li>
+		</ul>
+		<img id="tu" src="meitu.jpg"  />
+		</div>
+		<script>
+			function showPic(whichpic){
+				var source=whichpic.getAttribute("href");
+				var tu=document.getElementById("tu");
+				tu.setAttribute("src",source);
+			}
+		</script>
+	</body>
+</html>
