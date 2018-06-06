@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<title>新建窗口窗口</title>
+	</head>
+	<body>
+		<div><a href="javascript:popUp('http://www.baidu.com/');">Example1</a></div>
+		<div><a href="#" onclick="popUp('http://www.baidu.com');return false;">Example2</a></div>
+		<div><a href="https://www.baidu.com/"onclick="popUp(this.href);return false;">Example3</a></div>
+	<script>
+	function popUp(winURL){
+		window.open(winURL,"popup","width=320,height=480");
+		}
+	</script>
+	</body>
+</html>
